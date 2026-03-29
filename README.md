@@ -25,3 +25,13 @@ User input is sent to the FastAPI backend, which processes the request using the
 1. Clone the repository
 2. Add your API key in `.env`
 3. Install dependencies:
+   pip install -r requirements.txt
+4. Run:
+  uvicorn main:app --reload
+
+
+## Future Improvements
+- Add conversation memory with context awareness
+- Deploy the application for public access
+- Integrate document-based querying (RAG)
+- Improve UI with modern frontend frameworks
